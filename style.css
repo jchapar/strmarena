@@ -32,6 +32,7 @@ header {
   background-position: center center;
   height: 80vh;
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .nav {
@@ -114,4 +115,55 @@ header {
 
 .input-container button:hover {
   opacity: 0.7;
+}
+
+.faq {
+  margin: 2rem;
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+}
+
+.section-heading h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.accordion {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.accordion-header {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.6rem;
+  transition: 0.4s;
+}
+
+.accordion-header.active,
+.accordion-header:hover {
+  background-color: #ccc;
+}
+
+.accordion-content {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  border: none;
+}
+
+.accordion-content p {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.3rem;
 }
